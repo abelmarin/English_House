@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+}
+
+.mission {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.announcements {
+    margin: 2rem auto;
+    color: #236c9e;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.announcement-wrapper {
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #236c9e;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.announcement-wrapper h1 {
+    font-size: 2rem;
+}
+
+.announcement-wrapper h3 {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.announcement-wrapper p {
+    background-color: #4794bf;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .mission {
+        width: 98%;
+    }
+
+    .announcements {
+        font-size: 1.7rem;
+    }
+
+    .announcement-wrapper {
+        width: 80%;
+    }
+}

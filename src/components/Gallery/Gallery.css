@@ -1,0 +1,17 @@
+.galleryText {
+    width: 100%;
+}
+
+.galleryCollage {
+    display: block;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+@media screen and (max-width: 800px) {
+    .galleryCollage {
+        display: block;
+        width: 90%;
+        margin: 3rem auto;
+    }
+}
