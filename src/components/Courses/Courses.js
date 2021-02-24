@@ -18,9 +18,10 @@ export const Courses = () => {
             <div className="card">
                 <div className="card-image">
                     <img src={teacher} alt="Teacher" className="schoolPic" />
-                    <h2>Beginners</h2>
+                    
                 </div>
                 <div className="card-text">
+                    <h2>Beginners</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend magna in lorem fermentum, ut mattis turpis aliquet. Fusce eleifend magna.</p>
                     
                     <Popup trigger=
@@ -44,9 +45,9 @@ export const Courses = () => {
             <div className="card">
                 <div className="card-image">
                     <img src={girlHandRaised} alt="Girl with hand raised" className="schoolPic" />
-                    <h2>Intermediate</h2>
                 </div>
                 <div className="card-text">
+                    <h2>Intermediate</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend magna in lorem fermentum, ut mattis turpis aliquet. Fusce eleifend magna.</p>
                     <Popup trigger=
                         {<button className="intermediate-btn">Read More</button>}
@@ -68,9 +69,9 @@ export const Courses = () => {
             <div className="card">
                 <div className="card-image">
                     <img src={twoStudents} alt="Two Students" className="schoolPic" />
-                    <h2>Advanced</h2>
                 </div>
                 <div className="card-text">
+                    <h2>Advanced</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend magna in lorem fermentum, ut mattis turpis aliquet. Fusce eleifend magna.</p>
                     <Popup trigger=
                         {<button className="advanced-btn">Read More</button>}
